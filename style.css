@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.main {
+    height: 100vh;
+    background-color: rgb(158, 226, 158);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main p {
+    font-size: 8rem;
+    padding-bottom: 30px;
+}
+
+.main form {
+    font-size: 3rem;
+}
+
+.main form select {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main form button {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
